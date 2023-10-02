@@ -35,7 +35,8 @@ const handleClose = () => {
 };
 const handleShow = () => {
   setShow(true);
-  setSelected(null)
+  setSelected(null);
+  setOtherDebt(constDebt)
 }
 
 const handleOtherDebtor = (e) => {
